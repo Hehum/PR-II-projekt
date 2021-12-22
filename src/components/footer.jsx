@@ -8,14 +8,18 @@ class Footer extends Component {
         return <div style={{
         position: "fixed",
         width: "100%",
+        height: '3%',
         textAlign: "center",
         bottom: "0",
+        backgroundColor: 'grey',
+
 
 
         }}>
-        <p>Jarosław Kotowicz - Filmoteka© </p>
 
-        </div>
+        <p>Jarosław Kotowicz - Filmoteka© </p></div>
+
+
 
     }
 }
