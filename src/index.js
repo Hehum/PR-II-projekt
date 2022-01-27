@@ -11,15 +11,16 @@ import SignUp from './components/signup';
 import Add from './components/add';
 
 
+
 ReactDOM.render(
  <BrowserRouter>
      <React.StrictMode>
 
-    <Header/>
+        <Header/>
 
                         <Routes>
                             <Route path='/' element={<Films />} />
-                            <Route path='/details' element={<Details />} />
+                            <Route path='/details/:id' element={<Details />} />
                             <Route path='/signin' element={<SignIn />} />
                             <Route path='/signup' element={<SignUp />} />
                             <Route path='/add' element={<Add />} />
